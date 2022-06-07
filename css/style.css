@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.customize-color {
+    background-color: aqua !important;
+    color: brown !important;
+  }
+
+/* Background image wiht text overlay */
+.bg-img {
+    background-image: url("images/chicago.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+.bg-img>p {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+  }
+
+.bg-dark {
+    color: white;
+    /* opacity: .8; */
+  }
