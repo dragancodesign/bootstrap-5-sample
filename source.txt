@@ -1,0 +1,41 @@
+
+EMMET shortcut to make child elements - explained !
+
+div.container-fluid>div.col-3.text-info
+
+I have to make one "div" with class "col-4" or "col-2" or any, and then another "div" inside with class="bg-some-color" or "text-center OR text-primary " and we can add *3 (for 3 times :-)
+
+
+
+/ * * * * * * * * * * * * * * * * * * * * * * * * * *
+        VS Code & VS Codium IMPORTANT PLUGINS
+* * * * * * * * * * * * * * * * * * * * * * * * * * /
+
+VS Code PLUGINS
+
+Beautify (HTML, CSS & JS)
+Beautifyv1.5.0HookyQR8,714,131(144)Beautify code in place for VS Code
+Djaneiro - Django Snippets 
+Djaneiro - Django Snippetsv1.4.2Scott Barkman193,538(11)A collection of snippets for django templates, models, views, fields & forms. Ported from Djaneiro fo
+Bootstrap 5 Quick Snippets
+Bootstrap 5 Quick Snippetsv0.3.0Anbuselvan Rocky123,387(8)Collection of Bootstrap 5 Snippets that will make your life easier.
+Emmet LiveEmmet Livev1.0.0Yurii Semeniuk228,863(4)Expand your Emmet abbreviations dynamically
+Linter
+Linterv0.0.11Nando Vieira111,252(1)An extension for VSCode that provides linting for multiple languages in on package.
+Live SASS CompilerLive Sass Compilerv5.4.0Glenn Marks106,936(43)Compile Sass or Scss to CSS at realtime.
+Live ServerLive Serverv5.7.5Ritwick Dey22,151,620(371)Launch a development local Server with live reload feature for static & dynamic pages
+VS Codium PLUGINS
+
+Django
+Djangov1.8.0batisteo17,563Beautiful syntax and scoped snippets for perfectionists with deadlines
+Hightlight matching Tag
+Highlight Matching Tagv0.10.1vincaslt3,439Highlights matching closing and opening tags
+Scooper
+Scoperv0.0.13Gruntfuggly239Highlight the current bracket scope
+SQLite (useful for Django)
+SQLitev0.14.1alexcvzz8,168Explore and query SQLite databases.
+
+Bracket Hightlighter - (at the moment I am using it)
+Bracket Highlighterv2.2.4Durzn46,617(6)Decorates text inbetween symbols.
+THEMESNight Owl -> NICE CHECK IT ! ! !
+Night Owlv2.0.1sarah.drasner1,438,553(118)A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage.
