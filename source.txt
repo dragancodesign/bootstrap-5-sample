@@ -1,7 +1,11 @@
 These samples are based on Udemy course:
+
 Bootstrap 5 Course: Build Responsive Websites like a Pro | Udemy
+
 https://www.udemy.com/course/bootstrap5-website/
 
+* * * 
+* * * 
 
 GitHub COMMANDS IMPORTANT :
 This way is used when the repository is already created :
@@ -13,6 +17,8 @@ git status
 4) git commit -m "Initial commit"
 5) git branch -M main
 6) git push -u origin main
+* * * 
+* * * 
 Link to source of the under revert options: (userful)
 https://dev.to/isabelcmdcosta/how-to-undo-the-last-commit--31mg
 
@@ -27,6 +33,7 @@ How to undo this commit?
 If you wish to undo/revert the last commit you can do the following, using the commit hash that you get from the git log command:
 git revert < commit hash >
 
+* * *
 Create .gitignore file :
 touch .gitignore
 
@@ -43,6 +50,9 @@ Inside this file we will write what is necessary:
 # Logs
 logs
 *.log
+
+* * * 
+
 Emmet shortcut to make child elements :
 div.container-fluid>div.col-3.text-info
 
@@ -58,27 +68,41 @@ VS Code PLUGINS
 
 Beautify (HTML, CSS & JS)
 Beautifyv1.5.0HookyQR8,714,131(144)Beautify code in place for VS Code
+
 Djaneiro - Django Snippets 
 Djaneiro - Django Snippetsv1.4.2Scott Barkman193,538(11)A collection of snippets for django templates, models, views, fields & forms. Ported from Djaneiro fo
+
 Bootstrap 5 Quick Snippets
-Bootstrap 5 Quick Snippetsv0.3.0Anbuselvan Rocky123,387(8)Collection of Bootstrap 5 Snippets that will make your life easier.
-Emmet LiveEmmet Livev1.0.0Yurii Semeniuk228,863(4)Expand your Emmet abbreviations dynamically
+Bootstrap 5 Quick Snippets v0.3.0 Anbuselvan Rocky123,387(8) Collection of Bootstrap 5 Snippets that will make your life easier.
+
+Emmet 
+LiveEmmet Livev1.0.0Yurii Semeniuk228,863(4)Expand your Emmet abbreviations dynamically
+
 Linter
 Linterv0.0.11Nando Vieira111,252(1)An extension for VSCode that provides linting for multiple languages in on package.
+
 Live SASS CompilerLive Sass Compilerv5.4.0Glenn Marks106,936(43)Compile Sass or Scss to CSS at realtime.
+
 Live ServerLive Serverv5.7.5Ritwick Dey22,151,620(371)Launch a development local Server with live reload feature for static & dynamic pages
+
 VS Codium PLUGINS
 
 Django
 Djangov1.8.0batisteo17,563Beautiful syntax and scoped snippets for perfectionists with deadlines
+
 Hightlight matching Tag
 Highlight Matching Tagv0.10.1vincaslt3,439Highlights matching closing and opening tags
+
 Scooper
 Scoperv0.0.13Gruntfuggly239Highlight the current bracket scope
-SQLite (useful for Django)
+
+SQLite (useful for Django) # To see .db file inside VS Code 
 SQLitev0.14.1alexcvzz8,168Explore and query SQLite databases.
 
 Bracket Hightlighter - (at the moment I am using it)
 Bracket Highlighterv2.2.4Durzn46,617(6)Decorates text inbetween symbols.
-THEMESNight Owl -> NICE CHECK IT ! ! !
+
+THEMES
+
+Night Owl -> OK ! ! !
 Night Owlv2.0.1sarah.drasner1,438,553(118)A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage.
