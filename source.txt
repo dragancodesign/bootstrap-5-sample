@@ -1,6 +1,49 @@
+These samples are based on Udemy course:
+Bootstrap 5 Course: Build Responsive Websites like a Pro | Udemy
+https://www.udemy.com/course/bootstrap5-website/
 
-EMMET shortcut to make child elements - explained !
 
+GitHub COMMANDS IMPORTANT :
+This way is used when the repository is already created :
+✓ ✓ ✓ GitHub Steps one by one:
+1) git init
+git status
+2) git add .
+3) git remote add origin https://github.com/accountname/reponame.git
+4) git commit -m "Initial commit"
+5) git branch -M main
+6) git push -u origin main
+Link to source of the under revert options: (userful)
+https://dev.to/isabelcmdcosta/how-to-undo-the-last-commit--31mg
+
+Important to revert changes: git log will show all hashes
+git log
+git log --oneline
+
+To test a specific commit (e.g.: < before last commit hash >), that you think has the last working version, you can type the following:
+git checkout < commit hash >
+
+How to undo this commit?
+If you wish to undo/revert the last commit you can do the following, using the commit hash that you get from the git log command:
+git revert < commit hash >
+
+Create .gitignore file :
+touch .gitignore
+
+We can also create an .gitignore file, to ingore secret keys, passwords etc.
+
+Inside this file we will write what is necessary:
+
+# Mac files
+.DS_Store
+
+# dotenv environment variables file
+.env
+
+# Logs
+logs
+*.log
+Emmet shortcut to make child elements :
 div.container-fluid>div.col-3.text-info
 
 I have to make one "div" with class "col-4" or "col-2" or any, and then another "div" inside with class="bg-some-color" or "text-center OR text-primary " and we can add *3 (for 3 times :-)

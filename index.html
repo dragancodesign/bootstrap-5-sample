@@ -50,7 +50,7 @@
                     <li class="nav-item"><a href="#forms" class="nav-link">Forms</a></li>
                     <li class="nav-item"><a href="#cards" class="nav-link">Cards</a></li>
                     <li class="nav-item"><a href="#carousel" class="nav-link">Carousel</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <!-- <li class="nav-item"><a href="#" class="nav-link">Blog</a></li> -->
 
                     <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
 
@@ -81,7 +81,7 @@
                         </ul>
                     </li> -->
 
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <!-- <li class="nav-item"><a href="#" class="nav-link">Contact</a></li> -->
                 </ul>
             </div>
 
@@ -93,12 +93,13 @@
     <br><br>
 
     <hr>
-    <h3 class="text-danger mx-5 text-center text-decoration-underline">Git commands important :</h3>
+    <h3 class="text-danger mx-5 text-decoration-underline">Git commands important :</h3>
     <hr>
     <div class="container-fluid g-5">
-        <h5 class="text-center fst-italic text-decoration-underline">This way is used when the repository is already
+        <h5 class="fst-italic text-decoration-underline">This way is used when the repository is already
             created :</h5>
 
+        <h5 class="text-primary"> ✓ ✓ ✓ <span class="text-danger"> GitHub Steps </span>one by one:</h5>
         <h5 class="text-danger">1) git init</h5>
         <h5 class="text-info text-decoration-underline">git status</h5>
         <h5 class="text-danger">2) git add .</h5>
@@ -106,6 +107,23 @@
         <h5 class="text-danger">4) git commit -m "Initial commit"</h5>
         <h5 class="text-danger">5) git branch -M main</h5>
         <h5 class="text-danger">6) git push -u origin main</h5>
+
+        <h5>Link to source of the under revert options: (userful) </h5>
+        <a href="https://dev.to/isabelcmdcosta/how-to-undo-the-last-commit--31mg">https://dev.to/isabelcmdcosta/how-to-undo-the-last-commit--31mg</a>
+        <p class="fst-italic">Important to revert changes: <span class="fw-bold">git log</span> will show all hashes</p>
+        <h5 class="text-info text-decoration-underline">git log</h5>
+        <h5 class="text-info text-decoration-underline">git log --oneline</h5>
+        <p>To test a specific commit (e.g.: < before last commit hash >), that you think has the last working version, you can type the following:</p>
+        <h5 class="text-info text-decoration-underline">git checkout < commit hash ></h5>
+        
+        <p class="fw-bold">How to undo this commit?</p>
+        
+        If you wish to undo/revert the last commit you can do the following, using the commit hash that you get from the git log command:
+        
+        <h5 class="text-info text-decoration-underline">git revert < commit hash ></h5>
+
+        <br>
+        <h5 class="fw-bold">Create .gitignore file :</h5>
         <h5 class=" text-decoration-underline text-info">touch .gitignore</h5>
         <p class="fw-bold">We can also create an .gitignore file, to ingore secret keys, passwords etc.</p>
         <p class="fw-bold fst-italic">Inside this file we will write what is necessary:</p>
